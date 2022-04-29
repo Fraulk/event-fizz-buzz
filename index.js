@@ -3,4 +3,6 @@ const FizzBuzz = new FizzBuzzClass()
 
 FizzBuzz.on("fizzBuzz", (payload) => console.log(payload))
 
-FizzBuzz.fizzBuzz(42)
+for (let i = 0; i <= 20; i++) {
+    FizzBuzz.fizzBuzz(i)
+}
